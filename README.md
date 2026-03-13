@@ -1,14 +1,14 @@
 [![Maintainability](https://qlty.sh/gh/sigilisd/projects/build-an-HTML-calculator-with-JS/maintainability.svg)](https://qlty.sh/gh/sigilisd/projects/build-an-HTML-calculator-with-JS)
-# Simple Calculator 🧮
+# Простой калькулятор 🧮
 
-Краткое описание проекта: простой веб-калькулятор, выполняющий базовые арифметические операции.
+Простой веб-калькулятор выполняет базовые арифметические операции: сложение, вычитание, умножение и деление. Проект разработан на чистом JavaScript, обеспечивая мгновенный отклик интерфейса без перезагрузки страниц. Адаптивный дизайн на базе CSS Grid гарантирует удобство использования как на персональных компьютерах, так и на мобильных устройствах. Логика поддерживает корректную обработку десятичных дробей и динамическое переключение кнопок очистки (AC/CE). Это легкий и эстетичный инструмент, демонстрирующий основы построения современной фронтенд-архитектуры.
 
-https://sigilisd.github.io/build-an-HTML-calculator-with-JS/
+Деплой: https://sigilisd.github.io/build-an-HTML-calculator-with-JS/
 
 # 🚀 Функционал
 * Сложение, вычитание, умножение и деление.
 
-* Очистка экрана.
+* Очистка экрана. Динамическое переключение кнопок AC / CE.
 
 * Адаптивный интерфейс (работает на мобильных устройствах).
 
@@ -18,3 +18,15 @@ https://sigilisd.github.io/build-an-HTML-calculator-with-JS/
 * CSS3 — стилизация и сетка кнопок.
 
 * JavaScript (Vanilla) — логика вычислений.
+
+# 🚀 Как запустить локально (Usage)
+
+1. Склонируйте репозиторий:
+``` bash
+git clone https://github.com/sigilisd/build-an-HTML-calculator-with-JS.git
+```
+2. Перейдите в папку проекта:
+``` bash
+cd build-an-HTML-calculator-with-JS
+```
+3. Откройте файл index.html в вашем любимом браузере.
