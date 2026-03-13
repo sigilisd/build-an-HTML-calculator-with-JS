@@ -106,7 +106,8 @@ body {
   align-items: center;
   background-image: linear-gradient(236deg, #82bebe, #C8D9E6);
   display: flex;
-  height: 100vh;
+  min-height: 100vh;
+  min-height: 100svh;
   justify-content: center;
 }
 
@@ -173,3 +174,48 @@ body {
   grid-column: -2;
   grid-row: 2 / span 4;
 }
+
+/* Адаптация под мобильные устройства */
+@media (max-width: 480px) {
+  html {
+    font-size: 140%;
+  }
+
+  body {
+    padding: 16px;
+    align-items: flex-start;
+  }
+
+  .container {
+    width: 100%;
+    max-width: 420px;
+  }
+
+  .calculator {
+    width: 100%;
+    max-width: none;
+    margin-top: 1rem;
+    border-radius: 14px;
+  }
+
+  .calculator__display {
+    font-size: 1.5em;
+    padding: 0.6em 0.75em;
+  }
+
+  .calculator__keys > * {
+    padding: 0.85em 0.25em;
+    min-height: 48px;
+  }
+}
+
+@media (max-width: 360px) {
+  html {
+    font-size: 125%;
+  }
+
+  .calculator__display {
+    font-size: 1.35em;
+  }
+}
+
